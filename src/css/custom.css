@@ -1,0 +1,287 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #5a67d8;
+  --ifm-color-primary-darker: #4c51bf;
+  --ifm-color-primary-darkest: #434190;
+  --ifm-color-primary-light: #7c8ce5;
+  --ifm-color-primary-lighter: #98a8f0;
+  --ifm-color-primary-lightest: #b8c4f7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* 自定义变量 */
+  --ai-purple: #667eea;
+  --ai-purple-dark: #764ba2;
+  --ai-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a3bffa;
+  --ifm-color-primary-dark: #90a5f5;
+  --ifm-color-primary-darker: #7c8ce5;
+  --ifm-color-primary-darkest: #667eea;
+  --ifm-color-primary-light: #b8c4f7;
+  --ifm-color-primary-lighter: #cbd5f8;
+  --ifm-color-primary-lightest: #e0e7ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* 导航栏样式优化 */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* 侧边栏样式优化 */
+.theme-doc-sidebar-menu {
+  font-size: 0.95rem;
+}
+
+/* ========== 一级分类标题（直接子项）========== */
+/* 如：AI工具与应用、AI开发实践 */
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category {
+  margin-bottom: 0.5rem;
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: transparent;
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link:hover {
+  background: rgba(102, 126, 234, 0.1);
+  color: #ffffff;
+}
+
+/* ========== 二级分类标题（嵌套在列表中）========== */
+/* 如：聊天对话类、图像创作类、提示词工程 */
+.menu__list .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #9ca3af;
+  padding: 0.5rem 1rem;
+}
+
+.menu__list .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+/* ========== 三级文档链接（最深层）========== */
+/* 如：ChatGPT使用指南、提示词基础 */
+.menu__list .menu__list .theme-doc-sidebar-item-link {
+  font-size: 0.9rem;
+}
+
+.menu__list .menu__list .theme-doc-sidebar-item-link .menu__link {
+  font-weight: 400;
+  color: #6b7280;
+  padding: 0.4rem 1rem 0.4rem 1.25rem;
+}
+
+.menu__list .menu__list .theme-doc-sidebar-item-link .menu__link:hover {
+  color: #a3bffa;
+}
+
+/* ========== 选中状态 ========== */
+.menu__list .menu__list .theme-doc-sidebar-item-link .menu__link--active {
+  color: #667eea;
+  font-weight: 500;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 0 4px 4px 0;
+}
+
+/* 文档内容样式 - 浅色模式 */
+.markdown h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+  border-bottom: 3px solid var(--ai-purple);
+  padding-bottom: 0.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #4a5568;
+  color: #2d3748;
+}
+
+.markdown h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+}
+
+/* 文档内容样式 - 深色模式 */
+[data-theme='dark'] .markdown h1 {
+  color: #ffffff;
+  border-bottom-color: #a3bffa;
+}
+
+[data-theme='dark'] .markdown h2 {
+  color: #e0e0e0;
+  border-bottom-color: #4a5568;
+}
+
+[data-theme='dark'] .markdown h3 {
+  color: #a0a0a0;
+}
+
+/* 表格样式 - 浅色模式 */
+.markdown table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.markdown table th {
+  background: #f7fafc;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.markdown table td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #2d3748;
+}
+
+/* 表格样式 - 深色模式 */
+[data-theme='dark'] .markdown table {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .markdown table th {
+  background: #2d3748;
+  color: #e0e0e0;
+}
+
+[data-theme='dark'] .markdown table td {
+  border-bottom-color: #4a5568;
+  color: #e0e0e0;
+}
+
+[data-theme='dark'] .markdown table tr:nth-child(even) {
+  background: #1a202c;
+}
+
+/* 代码块样式 */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* 按钮样式 */
+.button--primary {
+  background: var(--ai-gradient);
+  border: none;
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b4190 100%);
+}
+
+/* 引用块样式 - 浅色模式 */
+blockquote {
+  border-left: 4px solid var(--ai-purple);
+  background: #f7fafc;
+  color: #2d3748;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+}
+
+/* 引用块样式 - 深色模式 */
+[data-theme='dark'] blockquote {
+  background: #1e2f4f;
+  color: #e0e0e0;
+  border-left-color: #667eea;
+}
+
+/* 链接样式 */
+.markdown a {
+  color: var(--ai-purple);
+  font-weight: 500;
+}
+
+.markdown a:hover {
+  color: var(--ai-purple-dark);
+  text-decoration: underline;
+}
+
+/* 列表样式 */
+.markdown ul {
+  padding-left: 1.5rem;
+}
+
+.markdown ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* 水平分割线 */
+.markdown hr {
+  border: none;
+  border-top: 2px solid #e2e8f0;
+  margin: 2rem 0;
+}
+
+[data-theme='dark'] .markdown hr {
+  border-top-color: #4a5568;
+}
+
+/* 分类卡片颜色（用于侧边栏） */
+.category-basics { --cat-color: #4A90E2; }
+.category-tools { --cat-color: #50C878; }
+.category-dev { --cat-color: #FF6B35; }
+.category-industry { --cat-color: #9B59B6; }
+.category-news { --cat-color: #F39C12; }
+.category-resources { --cat-color: #E74C3C; }
+
+/* 响应式优化 */
+@media screen and (max-width: 996px) {
+  .markdown h1 {
+    font-size: 1.8rem;
+  }
+  
+  .markdown h2 {
+    font-size: 1.4rem;
+  }
+  
+  .markdown h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* 打印样式 */
+@media print {
+  .navbar,
+  .theme-doc-sidebar-container,
+  .pagination-nav,
+  .footer {
+    display: none;
+  }
+  
+  .main-wrapper {
+    padding: 0;
+  }
+}

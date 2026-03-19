@@ -1,0 +1,277 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Hero区域 - 深色模式适配 */
+.heroBanner {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #e0e0e0;
+}
+
+.heroBanner h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.heroBanner p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #b0b0b0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+  .heroBanner h1 {
+    font-size: 2.5rem;
+  }
+  .heroBanner p {
+    font-size: 1.2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.buttons a {
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+/* 通用section样式 - 深色背景 */
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #e0e0e0;
+}
+
+/* 六大分类卡片 - 深色模式 */
+.categoriesSection {
+  padding: 4rem 0;
+  background: #1a1a2e;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.categoryCard {
+  background: #16213e;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.categoryCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  border-color: var(--category-color, #667eea);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.categoryIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.categoryCard h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.categoryCard p {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* 快速开始 - 深色模式 */
+.quickStartSection {
+  padding: 4rem 0;
+  background: #0f3460;
+}
+
+.quickGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quickCard {
+  background: #16213e;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: all 0.2s ease;
+  border: 1px solid #2a3f5f;
+}
+
+.quickCard:hover {
+  background: #1e2f4f;
+  border-color: #3a5f8f;
+  text-decoration: none;
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+.quickIcon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.quickCard h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: #ffffff;
+}
+
+.quickCard p {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* 热门内容 - 深色模式 */
+.hotSection {
+  padding: 4rem 0;
+  background: #1a1a2e;
+}
+
+.hotList {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hotItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: #16213e;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  border: 1px solid #2a3f5f;
+}
+
+.hotItem:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  text-decoration: none;
+  color: #ffffff;
+  transform: translateX(5px);
+  border-color: #3a5f8f;
+}
+
+.hotRank {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.hotTitle {
+  flex: 1;
+  font-weight: 500;
+  color: #e0e0e0;
+}
+
+.hotViews {
+  color: #808080;
+  font-size: 0.85rem;
+}
+
+/* Features区域 - 深色模式 */
+.featuresSection {
+  padding: 4rem 0;
+  background: #0f3460;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.featureItem {
+  text-align: center;
+  padding: 2rem;
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.featureItem h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.featureItem p {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+
+/* 响应式 */
+@media screen and (max-width: 768px) {
+  .categoryGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .quickGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+}
