@@ -26,20 +26,15 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: ai-wiki/package-lock.json
       
       - name: Install dependencies
-        run: |
-          cd ai-wiki
-          npm ci          
+        run: npm ci
       
       - name: Build website
-        run: |
-          cd ai-wiki
-          npm run build          
+        run: npm run build
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ai-wiki/build
+          publish_dir: ./build
