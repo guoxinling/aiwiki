@@ -7,11 +7,12 @@ const config: Config = {
   tagline: '面向非程序员的AI学习指南 - 从入门到精通',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-domain.vercel.app',
-  baseUrl: '/',
+  url: 'https://guoxinling.github.io',
+  baseUrl: '/aiwiki/',
 
-  organizationName: 'your-github-username',
-  projectName: 'ai-knowledge-base',
+  organizationName: 'guoxinling',
+  projectName: 'aiwiki',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
