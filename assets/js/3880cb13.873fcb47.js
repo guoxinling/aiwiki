@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkai_wiki=globalThis.webpackChunkai_wiki||[]).push([[3401],{7382(a){a.exports=JSON.parse('{"metadata":{"permalink":"/aiwiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
