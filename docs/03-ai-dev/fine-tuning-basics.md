@@ -105,7 +105,7 @@ sidebar_position: 15
 ```json
 {
   "messages": [
-    {"role": "system", "content": "你是一位专业的医疗助手"},
+    {"role": "system", "content": "你是一位非常专业的医疗助手"},
     {"role": "user", "content": "患者症状：发烧38度，咳嗽..."},
     {"role": "assistant", "content": "根据症状，可能是...建议..."}
   ]
