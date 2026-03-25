@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://guoxinling.github.io',
-  baseUrl: '/aiwiki/',
+  baseUrl: '/',
 
   organizationName: 'guoxinling',
   projectName: 'aiwiki',
