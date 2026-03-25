@@ -86,7 +86,6 @@ const sidebars: SidebarsConfig = {
             {type: 'doc', id: 'ai-dev/prompt-basics', label: '01. 提示词基础'},
             {type: 'doc', id: 'ai-dev/prompt-frameworks', label: '02. 提示词框架'},
             {type: 'doc', id: 'ai-dev/role-prompting', label: '03. 角色提示技巧'},
-            {type: 'doc', id: 'ai-dev/few-shot-prompting', label: '04. 少样本提示'},
           ],
         },
         {
