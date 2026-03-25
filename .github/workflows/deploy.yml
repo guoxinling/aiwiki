@@ -17,6 +17,10 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 3fa47c175674c5f29ed0254b132fab0cab6122cf
     steps:
       - uses: actions/checkout@v4
       
@@ -37,4 +41,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ai-wiki/build
+          publish_dir: ./build
+          publish_branch: gh-pages
+          force_orphan: true
