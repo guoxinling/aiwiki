@@ -1,0 +1,9 @@
+diff a/.github/workflows/deploy.yml b/.github/workflows/deploy.yml	(rejected hunks)
+@@ -17,7 +17,6 @@
+ jobs:
+   deploy:
+     runs-on: ubuntu-latest
+-    
+     steps:
+       - uses: actions/checkout@v4
+       

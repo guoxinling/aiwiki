@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-22",
+  "tasks": [
+    {
+      "path": "01-ai-basics/what-is-ai.md",
+      "title": "什么是AI？",
+      "desc": "用简单的话解释人工智能的本质",
+      "priority": "high"
+    },
+    {
+      "path": "01-ai-basics/ai-terms.md",
+      "title": "AI常见术语词典",
+      "desc": "搞懂那些专业词汇",
+      "priority": "high"
+    },
+    {
+      "path": "02-ai-tools/domestic-chat-tools.md",
+      "title": "国内AI对话工具对比",
+      "desc": "文心一言、通义千问、智谱清言等对比",
+      "priority": "high"
+    }
+  ],
+  "status": "pending"
+}
