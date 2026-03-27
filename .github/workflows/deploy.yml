@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./20_PROJECTS/ai-wiki
+        working-directory: 20_PROJECTS/ai-wiki
     
     steps:
       - uses: actions/checkout@v4
@@ -39,6 +39,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./20_PROJECTS/ai-wiki/build
+          publish_dir: 20_PROJECTS/ai-wiki/build
           publish_branch: gh-pages
           force_orphan: true
