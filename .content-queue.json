@@ -1,22 +1,22 @@
 {
-  "date": "2026-03-22",
+  "date": "2026-05-16",
   "tasks": [
-    {
-      "path": "01-ai-basics/what-is-ai.md",
-      "title": "什么是AI？",
-      "desc": "用简单的话解释人工智能的本质",
-      "priority": "high"
-    },
-    {
-      "path": "01-ai-basics/ai-terms.md",
-      "title": "AI常见术语词典",
-      "desc": "搞懂那些专业词汇",
-      "priority": "high"
-    },
     {
       "path": "02-ai-tools/domestic-chat-tools.md",
       "title": "国内AI对话工具对比",
       "desc": "文心一言、通义千问、智谱清言等对比",
+      "priority": "high"
+    },
+    {
+      "path": "02-ai-tools/ai-image-tools.md",
+      "title": "AI绘画工具推荐",
+      "desc": "Midjourney、Stable Diffusion等工具介绍",
+      "priority": "high"
+    },
+    {
+      "path": "02-ai-tools/ai-office-tools.md",
+      "title": "AI办公工具推荐",
+      "desc": "提升办公效率的AI工具",
       "priority": "high"
     }
   ],
