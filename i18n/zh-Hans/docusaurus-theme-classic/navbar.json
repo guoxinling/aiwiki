@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "AI知识库",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "AI知识库 Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.🧠 基础": {
+    "message": "🧠 基础",
+    "description": "Navbar item with label 🧠 基础"
+  },
+  "item.label.🛠️ 工具": {
+    "message": "🛠️ 工具",
+    "description": "Navbar item with label 🛠️ 工具"
+  },
+  "item.label.💻 开发": {
+    "message": "💻 开发",
+    "description": "Navbar item with label 💻 开发"
+  },
+  "item.label.🏭 行业": {
+    "message": "🏭 行业",
+    "description": "Navbar item with label 🏭 行业"
+  },
+  "item.label.📈 资讯": {
+    "message": "📈 资讯",
+    "description": "Navbar item with label 📈 资讯"
+  },
+  "item.label.📚 资源": {
+    "message": "📚 资源",
+    "description": "Navbar item with label 📚 资源"
+  },
+  "item.label.🦞 OpenClaw": {
+    "message": "🦞 OpenClaw",
+    "description": "Navbar item with label 🦞 OpenClaw"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

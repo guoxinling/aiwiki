@@ -1,0 +1,462 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.🧠 AI基础与原理": {
+    "message": "🧠 AI基础与原理",
+    "description": "The label for category '🧠 AI基础与原理' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.🛠️ AI工具与应用": {
+    "message": "🛠️ AI工具与应用",
+    "description": "The label for category '🛠️ AI工具与应用' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.聊天对话类": {
+    "message": "聊天对话类",
+    "description": "The label for category '聊天对话类' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.图像创作类": {
+    "message": "图像创作类",
+    "description": "The label for category '图像创作类' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.办公效率类": {
+    "message": "办公效率类",
+    "description": "The label for category '办公效率类' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.编程辅助类": {
+    "message": "编程辅助类",
+    "description": "The label for category '编程辅助类' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.视频音频类": {
+    "message": "视频音频类",
+    "description": "The label for category '视频音频类' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.💻 AI开发实践": {
+    "message": "💻 AI开发实践",
+    "description": "The label for category '💻 AI开发实践' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.提示词工程": {
+    "message": "提示词工程",
+    "description": "The label for category '提示词工程' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.实战案例": {
+    "message": "实战案例",
+    "description": "The label for category '实战案例' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.应用开发入门": {
+    "message": "应用开发入门",
+    "description": "The label for category '应用开发入门' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.进阶实践": {
+    "message": "进阶实践",
+    "description": "The label for category '进阶实践' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.🏭 AI行业应用": {
+    "message": "🏭 AI行业应用",
+    "description": "The label for category '🏭 AI行业应用' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.📈 AI资讯与趋势": {
+    "message": "📈 AI资讯与趋势",
+    "description": "The label for category '📈 AI资讯与趋势' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.📚 AI学习资源": {
+    "message": "📚 AI学习资源",
+    "description": "The label for category '📚 AI学习资源' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.🦞 OpenClaw": {
+    "message": "🦞 OpenClaw",
+    "description": "The label for category '🦞 OpenClaw' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.doc.01. 什么是AI？": {
+    "message": "01. 什么是AI？",
+    "description": "The label for the doc item '01. 什么是AI？' in sidebar 'tutorialSidebar', linking to the doc ai-basics/what-is-ai"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI常见术语词典": {
+    "message": "02. AI常见术语词典",
+    "description": "The label for the doc item '02. AI常见术语词典' in sidebar 'tutorialSidebar', linking to the doc ai-basics/ai-terms"
+  },
+  "sidebar.tutorialSidebar.doc.01. ChatGPT使用指南": {
+    "message": "01. ChatGPT使用指南",
+    "description": "The label for the doc item '01. ChatGPT使用指南' in sidebar 'tutorialSidebar', linking to the doc ai-tools/chatgpt-guide"
+  },
+  "sidebar.tutorialSidebar.doc.02. Claude使用指南": {
+    "message": "02. Claude使用指南",
+    "description": "The label for the doc item '02. Claude使用指南' in sidebar 'tutorialSidebar', linking to the doc ai-tools/claude-guide"
+  },
+  "sidebar.tutorialSidebar.doc.03. 国内AI对话工具对比": {
+    "message": "03. 国内AI对话工具对比",
+    "description": "The label for the doc item '03. 国内AI对话工具对比' in sidebar 'tutorialSidebar', linking to the doc ai-tools/domestic-chat-tools"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI绘画工具推荐": {
+    "message": "01. AI绘画工具推荐",
+    "description": "The label for the doc item '01. AI绘画工具推荐' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-image-tools"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI修图工具": {
+    "message": "02. AI修图工具",
+    "description": "The label for the doc item '02. AI修图工具' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-photo-edit"
+  },
+  "sidebar.tutorialSidebar.doc.03. AI头像生成": {
+    "message": "03. AI头像生成",
+    "description": "The label for the doc item '03. AI头像生成' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-avatar"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI办公工具推荐": {
+    "message": "01. AI办公工具推荐",
+    "description": "The label for the doc item '01. AI办公工具推荐' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-office-tools"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI会议助手": {
+    "message": "02. AI会议助手",
+    "description": "The label for the doc item '02. AI会议助手' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-meeting"
+  },
+  "sidebar.tutorialSidebar.doc.03. AI文档处理": {
+    "message": "03. AI文档处理",
+    "description": "The label for the doc item '03. AI文档处理' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-document"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI编程助手": {
+    "message": "01. AI编程助手",
+    "description": "The label for the doc item '01. AI编程助手' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-coding"
+  },
+  "sidebar.tutorialSidebar.doc.02. 代码解释与调试": {
+    "message": "02. 代码解释与调试",
+    "description": "The label for the doc item '02. 代码解释与调试' in sidebar 'tutorialSidebar', linking to the doc ai-tools/code-debug"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI视频工具": {
+    "message": "01. AI视频工具",
+    "description": "The label for the doc item '01. AI视频工具' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-video"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI音频工具": {
+    "message": "02. AI音频工具",
+    "description": "The label for the doc item '02. AI音频工具' in sidebar 'tutorialSidebar', linking to the doc ai-tools/ai-audio"
+  },
+  "sidebar.tutorialSidebar.doc.01. 提示词基础": {
+    "message": "01. 提示词基础",
+    "description": "The label for the doc item '01. 提示词基础' in sidebar 'tutorialSidebar', linking to the doc ai-dev/prompt-basics"
+  },
+  "sidebar.tutorialSidebar.doc.02. 提示词框架": {
+    "message": "02. 提示词框架",
+    "description": "The label for the doc item '02. 提示词框架' in sidebar 'tutorialSidebar', linking to the doc ai-dev/prompt-frameworks"
+  },
+  "sidebar.tutorialSidebar.doc.03. 角色提示技巧": {
+    "message": "03. 角色提示技巧",
+    "description": "The label for the doc item '03. 角色提示技巧' in sidebar 'tutorialSidebar', linking to the doc ai-dev/role-prompting"
+  },
+  "sidebar.tutorialSidebar.doc.01. 用AI写周报": {
+    "message": "01. 用AI写周报",
+    "description": "The label for the doc item '01. 用AI写周报' in sidebar 'tutorialSidebar', linking to the doc ai-dev/weekly-report"
+  },
+  "sidebar.tutorialSidebar.doc.02. 用AI做PPT": {
+    "message": "02. 用AI做PPT",
+    "description": "The label for the doc item '02. 用AI做PPT' in sidebar 'tutorialSidebar', linking to the doc ai-dev/ai-ppt"
+  },
+  "sidebar.tutorialSidebar.doc.03. 用AI整理笔记": {
+    "message": "03. 用AI整理笔记",
+    "description": "The label for the doc item '03. 用AI整理笔记' in sidebar 'tutorialSidebar', linking to the doc ai-dev/learning-assistant"
+  },
+  "sidebar.tutorialSidebar.doc.04. 用AI分析数据": {
+    "message": "04. 用AI分析数据",
+    "description": "The label for the doc item '04. 用AI分析数据' in sidebar 'tutorialSidebar', linking to the doc ai-dev/ai-data-analysis"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI应用开发路线": {
+    "message": "01. AI应用开发路线",
+    "description": "The label for the doc item '01. AI应用开发路线' in sidebar 'tutorialSidebar', linking to the doc ai-dev/ai-app-roadmap"
+  },
+  "sidebar.tutorialSidebar.doc.02. API调用基础": {
+    "message": "02. API调用基础",
+    "description": "The label for the doc item '02. API调用基础' in sidebar 'tutorialSidebar', linking to the doc ai-dev/api-basics"
+  },
+  "sidebar.tutorialSidebar.doc.03. 低代码AI应用": {
+    "message": "03. 低代码AI应用",
+    "description": "The label for the doc item '03. 低代码AI应用' in sidebar 'tutorialSidebar', linking to the doc ai-dev/low-code-ai"
+  },
+  "sidebar.tutorialSidebar.doc.04. Dify入门教程": {
+    "message": "04. Dify入门教程",
+    "description": "The label for the doc item '04. Dify入门教程' in sidebar 'tutorialSidebar', linking to the doc ai-dev/dify-tutorial"
+  },
+  "sidebar.tutorialSidebar.doc.01. RAG系统搭建": {
+    "message": "01. RAG系统搭建",
+    "description": "The label for the doc item '01. RAG系统搭建' in sidebar 'tutorialSidebar', linking to the doc ai-dev/rag-tutorial"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI Agent开发": {
+    "message": "02. AI Agent开发",
+    "description": "The label for the doc item '02. AI Agent开发' in sidebar 'tutorialSidebar', linking to the doc ai-dev/agent-dev"
+  },
+  "sidebar.tutorialSidebar.doc.03. 模型微调入门": {
+    "message": "03. 模型微调入门",
+    "description": "The label for the doc item '03. 模型微调入门' in sidebar 'tutorialSidebar', linking to the doc ai-dev/fine-tuning-basics"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI辅助教学": {
+    "message": "01. AI辅助教学",
+    "description": "The label for the doc item '01. AI辅助教学' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-education"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI作业批改": {
+    "message": "02. AI作业批改",
+    "description": "The label for the doc item '02. AI作业批改' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-homework"
+  },
+  "sidebar.tutorialSidebar.doc.03. 语言学习AI": {
+    "message": "03. 语言学习AI",
+    "description": "The label for the doc item '03. 语言学习AI' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-language-learning"
+  },
+  "sidebar.tutorialSidebar.doc.04. AI医疗诊断": {
+    "message": "04. AI医疗诊断",
+    "description": "The label for the doc item '04. AI医疗诊断' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-medical"
+  },
+  "sidebar.tutorialSidebar.doc.05. AI健康管理": {
+    "message": "05. AI健康管理",
+    "description": "The label for the doc item '05. AI健康管理' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-health"
+  },
+  "sidebar.tutorialSidebar.doc.06. 药物研发AI": {
+    "message": "06. 药物研发AI",
+    "description": "The label for the doc item '06. 药物研发AI' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-drug-discovery"
+  },
+  "sidebar.tutorialSidebar.doc.07. AI智能投顾": {
+    "message": "07. AI智能投顾",
+    "description": "The label for the doc item '07. AI智能投顾' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-finance"
+  },
+  "sidebar.tutorialSidebar.doc.08. AI风控系统": {
+    "message": "08. AI风控系统",
+    "description": "The label for the doc item '08. AI风控系统' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-risk-control"
+  },
+  "sidebar.tutorialSidebar.doc.09. 智能客服": {
+    "message": "09. 智能客服",
+    "description": "The label for the doc item '09. 智能客服' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-banking-service"
+  },
+  "sidebar.tutorialSidebar.doc.10. AI推荐系统": {
+    "message": "10. AI推荐系统",
+    "description": "The label for the doc item '10. AI推荐系统' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-recommendation"
+  },
+  "sidebar.tutorialSidebar.doc.11. AI智能客服": {
+    "message": "11. AI智能客服",
+    "description": "The label for the doc item '11. AI智能客服' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-ecommerce-service"
+  },
+  "sidebar.tutorialSidebar.doc.12. AI内容生成": {
+    "message": "12. AI内容生成",
+    "description": "The label for the doc item '12. AI内容生成' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-content-gen"
+  },
+  "sidebar.tutorialSidebar.doc.13. AI辅助写作": {
+    "message": "13. AI辅助写作",
+    "description": "The label for the doc item '13. AI辅助写作' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-writing"
+  },
+  "sidebar.tutorialSidebar.doc.14. AI视频制作": {
+    "message": "14. AI视频制作",
+    "description": "The label for the doc item '14. AI视频制作' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-video-production"
+  },
+  "sidebar.tutorialSidebar.doc.15. AI音乐创作": {
+    "message": "15. AI音乐创作",
+    "description": "The label for the doc item '15. AI音乐创作' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-music"
+  },
+  "sidebar.tutorialSidebar.doc.16. AI人力资源": {
+    "message": "16. AI人力资源",
+    "description": "The label for the doc item '16. AI人力资源' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-hr"
+  },
+  "sidebar.tutorialSidebar.doc.17. AI法务助手": {
+    "message": "17. AI法务助手",
+    "description": "The label for the doc item '17. AI法务助手' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-legal"
+  },
+  "sidebar.tutorialSidebar.doc.18. AI营销自动化": {
+    "message": "18. AI营销自动化",
+    "description": "The label for the doc item '18. AI营销自动化' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-marketing"
+  },
+  "sidebar.tutorialSidebar.doc.19. AI质量检测": {
+    "message": "19. AI质量检测",
+    "description": "The label for the doc item '19. AI质量检测' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-quality"
+  },
+  "sidebar.tutorialSidebar.doc.20. AI供应链优化": {
+    "message": "20. AI供应链优化",
+    "description": "The label for the doc item '20. AI供应链优化' in sidebar 'tutorialSidebar', linking to the doc ai-industry/ai-supply-chain"
+  },
+  "sidebar.tutorialSidebar.doc.01. 本周AI大事": {
+    "message": "01. 本周AI大事",
+    "description": "The label for the doc item '01. 本周AI大事' in sidebar 'tutorialSidebar', linking to the doc ai-news/weekly-news"
+  },
+  "sidebar.tutorialSidebar.doc.02. 新产品发布": {
+    "message": "02. 新产品发布",
+    "description": "The label for the doc item '02. 新产品发布' in sidebar 'tutorialSidebar', linking to the doc ai-news/new-products"
+  },
+  "sidebar.tutorialSidebar.doc.03. 融资并购动态": {
+    "message": "03. 融资并购动态",
+    "description": "The label for the doc item '03. 融资并购动态' in sidebar 'tutorialSidebar', linking to the doc ai-news/funding-news"
+  },
+  "sidebar.tutorialSidebar.doc.04. 大模型发展趋势": {
+    "message": "04. 大模型发展趋势",
+    "description": "The label for the doc item '04. 大模型发展趋势' in sidebar 'tutorialSidebar', linking to the doc ai-news/llm-trends"
+  },
+  "sidebar.tutorialSidebar.doc.05. 多模态AI进展": {
+    "message": "05. 多模态AI进展",
+    "description": "The label for the doc item '05. 多模态AI进展' in sidebar 'tutorialSidebar', linking to the doc ai-news/multimodal-trends"
+  },
+  "sidebar.tutorialSidebar.doc.06. AI Agent演进": {
+    "message": "06. AI Agent演进",
+    "description": "The label for the doc item '06. AI Agent演进' in sidebar 'tutorialSidebar', linking to the doc ai-news/agent-trends"
+  },
+  "sidebar.tutorialSidebar.doc.07. 端侧AI兴起": {
+    "message": "07. 端侧AI兴起",
+    "description": "The label for the doc item '07. 端侧AI兴起' in sidebar 'tutorialSidebar', linking to the doc ai-news/edge-ai"
+  },
+  "sidebar.tutorialSidebar.doc.08. AI公司财报解读": {
+    "message": "08. AI公司财报解读",
+    "description": "The label for the doc item '08. AI公司财报解读' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-earnings"
+  },
+  "sidebar.tutorialSidebar.doc.09. 政策监管动态": {
+    "message": "09. 政策监管动态",
+    "description": "The label for the doc item '09. 政策监管动态' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-policy"
+  },
+  "sidebar.tutorialSidebar.doc.10. AI安全与伦理": {
+    "message": "10. AI安全与伦理",
+    "description": "The label for the doc item '10. AI安全与伦理' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-safety"
+  },
+  "sidebar.tutorialSidebar.doc.11. AI投资趋势": {
+    "message": "11. AI投资趋势",
+    "description": "The label for the doc item '11. AI投资趋势' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-investment"
+  },
+  "sidebar.tutorialSidebar.doc.12. AI人才市场": {
+    "message": "12. AI人才市场",
+    "description": "The label for the doc item '12. AI人才市场' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-talent"
+  },
+  "sidebar.tutorialSidebar.doc.13. AI替代职业分析": {
+    "message": "13. AI替代职业分析",
+    "description": "The label for the doc item '13. AI替代职业分析' in sidebar 'tutorialSidebar', linking to the doc ai-news/ai-jobs"
+  },
+  "sidebar.tutorialSidebar.doc.14. 2024AI发展回顾": {
+    "message": "14. 2024AI发展回顾",
+    "description": "The label for the doc item '14. 2024AI发展回顾' in sidebar 'tutorialSidebar', linking to the doc ai-news/review"
+  },
+  "sidebar.tutorialSidebar.doc.15. 2025AI趋势预测": {
+    "message": "15. 2025AI趋势预测",
+    "description": "The label for the doc item '15. 2025AI趋势预测' in sidebar 'tutorialSidebar', linking to the doc ai-news/predictions"
+  },
+  "sidebar.tutorialSidebar.doc.01. AI入门视频课程": {
+    "message": "01. AI入门视频课程",
+    "description": "The label for the doc item '01. AI入门视频课程' in sidebar 'tutorialSidebar', linking to the doc ai-resources/beginner-courses"
+  },
+  "sidebar.tutorialSidebar.doc.02. AI科普书籍推荐": {
+    "message": "02. AI科普书籍推荐",
+    "description": "The label for the doc item '02. AI科普书籍推荐' in sidebar 'tutorialSidebar', linking to the doc ai-resources/ai-books"
+  },
+  "sidebar.tutorialSidebar.doc.03. AI播客推荐": {
+    "message": "03. AI播客推荐",
+    "description": "The label for the doc item '03. AI播客推荐' in sidebar 'tutorialSidebar', linking to the doc ai-resources/ai-podcasts"
+  },
+  "sidebar.tutorialSidebar.doc.04. 机器学习课程": {
+    "message": "04. 机器学习课程",
+    "description": "The label for the doc item '04. 机器学习课程' in sidebar 'tutorialSidebar', linking to the doc ai-resources/ml-courses"
+  },
+  "sidebar.tutorialSidebar.doc.05. 深度学习教程": {
+    "message": "05. 深度学习教程",
+    "description": "The label for the doc item '05. 深度学习教程' in sidebar 'tutorialSidebar', linking to the doc ai-resources/dl-tutorials"
+  },
+  "sidebar.tutorialSidebar.doc.06. 大模型技术详解": {
+    "message": "06. 大模型技术详解",
+    "description": "The label for the doc item '06. 大模型技术详解' in sidebar 'tutorialSidebar', linking to the doc ai-resources/llm-technical"
+  },
+  "sidebar.tutorialSidebar.doc.07. 开源项目推荐": {
+    "message": "07. 开源项目推荐",
+    "description": "The label for the doc item '07. 开源项目推荐' in sidebar 'tutorialSidebar', linking to the doc ai-resources/open-source-projects"
+  },
+  "sidebar.tutorialSidebar.doc.08. AI竞赛平台": {
+    "message": "08. AI竞赛平台",
+    "description": "The label for the doc item '08. AI竞赛平台' in sidebar 'tutorialSidebar', linking to the doc ai-resources/ai-competitions"
+  },
+  "sidebar.tutorialSidebar.doc.09. 实验数据集": {
+    "message": "09. 实验数据集",
+    "description": "The label for the doc item '09. 实验数据集' in sidebar 'tutorialSidebar', linking to the doc ai-resources/datasets"
+  },
+  "sidebar.tutorialSidebar.doc.10. 中文AI社区": {
+    "message": "10. 中文AI社区",
+    "description": "The label for the doc item '10. 中文AI社区' in sidebar 'tutorialSidebar', linking to the doc ai-resources/chinese-communities"
+  },
+  "sidebar.tutorialSidebar.doc.11. 国际AI社区": {
+    "message": "11. 国际AI社区",
+    "description": "The label for the doc item '11. 国际AI社区' in sidebar 'tutorialSidebar', linking to the doc ai-resources/global-communities"
+  },
+  "sidebar.tutorialSidebar.doc.12. 技术博客推荐": {
+    "message": "12. 技术博客推荐",
+    "description": "The label for the doc item '12. 技术博客推荐' in sidebar 'tutorialSidebar', linking to the doc ai-resources/tech-blogs"
+  },
+  "sidebar.tutorialSidebar.doc.13. 经典论文导读": {
+    "message": "13. 经典论文导读",
+    "description": "The label for the doc item '13. 经典论文导读' in sidebar 'tutorialSidebar', linking to the doc ai-resources/classic-papers"
+  },
+  "sidebar.tutorialSidebar.doc.14. 最新论文追踪": {
+    "message": "14. 最新论文追踪",
+    "description": "The label for the doc item '14. 最新论文追踪' in sidebar 'tutorialSidebar', linking to the doc ai-resources/latest-papers"
+  },
+  "sidebar.tutorialSidebar.doc.15. 行业研究报告": {
+    "message": "15. 行业研究报告",
+    "description": "The label for the doc item '15. 行业研究报告' in sidebar 'tutorialSidebar', linking to the doc ai-resources/industry-reports"
+  },
+  "sidebar.tutorialSidebar.doc.16. 在线实验平台": {
+    "message": "16. 在线实验平台",
+    "description": "The label for the doc item '16. 在线实验平台' in sidebar 'tutorialSidebar', linking to the doc ai-resources/online-platforms"
+  },
+  "sidebar.tutorialSidebar.doc.17. 模型仓库": {
+    "message": "17. 模型仓库",
+    "description": "The label for the doc item '17. 模型仓库' in sidebar 'tutorialSidebar', linking to the doc ai-resources/model-zoos"
+  },
+  "sidebar.tutorialSidebar.doc.18. 开发工具推荐": {
+    "message": "18. 开发工具推荐",
+    "description": "The label for the doc item '18. 开发工具推荐' in sidebar 'tutorialSidebar', linking to the doc ai-resources/dev-tools"
+  },
+  "sidebar.tutorialSidebar.doc.01. 前置条件": {
+    "message": "01. 前置条件",
+    "description": "The label for the doc item '01. 前置条件' in sidebar 'tutorialSidebar', linking to the doc openclaw/prerequisites"
+  },
+  "sidebar.tutorialSidebar.doc.02. 安装核心程序": {
+    "message": "02. 安装核心程序",
+    "description": "The label for the doc item '02. 安装核心程序' in sidebar 'tutorialSidebar', linking to the doc openclaw/install_core"
+  },
+  "sidebar.tutorialSidebar.doc.03. 安装交互式终端": {
+    "message": "03. 安装交互式终端",
+    "description": "The label for the doc item '03. 安装交互式终端' in sidebar 'tutorialSidebar', linking to the doc openclaw/install_terminal"
+  },
+  "sidebar.tutorialSidebar.doc.04. 验证安装": {
+    "message": "04. 验证安装",
+    "description": "The label for the doc item '04. 验证安装' in sidebar 'tutorialSidebar', linking to the doc openclaw/verify_installation"
+  },
+  "sidebar.tutorialSidebar.doc.05. 人格设定": {
+    "message": "05. 人格设定",
+    "description": "The label for the doc item '05. 人格设定' in sidebar 'tutorialSidebar', linking to the doc openclaw/personality_config"
+  },
+  "sidebar.tutorialSidebar.doc.06. 记忆系统": {
+    "message": "06. 记忆系统",
+    "description": "The label for the doc item '06. 记忆系统' in sidebar 'tutorialSidebar', linking to the doc openclaw/memory_system"
+  },
+  "sidebar.tutorialSidebar.doc.07. 短期记忆": {
+    "message": "07. 短期记忆",
+    "description": "The label for the doc item '07. 短期记忆' in sidebar 'tutorialSidebar', linking to the doc openclaw/short_term_memory"
+  },
+  "sidebar.tutorialSidebar.doc.08. 渠道概览": {
+    "message": "08. 渠道概览",
+    "description": "The label for the doc item '08. 渠道概览' in sidebar 'tutorialSidebar', linking to the doc openclaw/channels_overview"
+  },
+  "sidebar.tutorialSidebar.doc.09. Telegram配置": {
+    "message": "09. Telegram配置",
+    "description": "The label for the doc item '09. Telegram配置' in sidebar 'tutorialSidebar', linking to the doc openclaw/setup_telegram"
+  },
+  "sidebar.tutorialSidebar.doc.10. 其他渠道": {
+    "message": "10. 其他渠道",
+    "description": "The label for the doc item '10. 其他渠道' in sidebar 'tutorialSidebar', linking to the doc openclaw/setup_other_channels"
+  },
+  "sidebar.tutorialSidebar.doc.11. LLM模型配置": {
+    "message": "11. LLM模型配置",
+    "description": "The label for the doc item '11. LLM模型配置' in sidebar 'tutorialSidebar', linking to the doc openclaw/setup_llm"
+  },
+  "sidebar.tutorialSidebar.doc.12. 技能配置": {
+    "message": "12. 技能配置",
+    "description": "The label for the doc item '12. 技能配置' in sidebar 'tutorialSidebar', linking to the doc openclaw/setup_skills"
+  },
+  "sidebar.tutorialSidebar.doc.13. 推荐技能": {
+    "message": "13. 推荐技能",
+    "description": "The label for the doc item '13. 推荐技能' in sidebar 'tutorialSidebar', linking to the doc openclaw/recommended_skills"
+  },
+  "sidebar.tutorialSidebar.doc.14. 多Agent系统": {
+    "message": "14. 多Agent系统",
+    "description": "The label for the doc item '14. 多Agent系统' in sidebar 'tutorialSidebar', linking to the doc openclaw/multi_agent_system"
+  },
+  "sidebar.tutorialSidebar.doc.15. 团队配置": {
+    "message": "15. 团队配置",
+    "description": "The label for the doc item '15. 团队配置' in sidebar 'tutorialSidebar', linking to the doc openclaw/team_setup"
+  },
+  "sidebar.tutorialSidebar.doc.16. 实用教程": {
+    "message": "16. 实用教程",
+    "description": "The label for the doc item '16. 实用教程' in sidebar 'tutorialSidebar', linking to the doc openclaw/tutorials"
+  }
+}
