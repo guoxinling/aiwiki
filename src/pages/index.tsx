@@ -62,17 +62,17 @@ const categories = [
 
 // 快速入口
 const quickStarts = [
-  { title: 'AI新手入门', desc: '从零开始了解AI', link: '/docs/01-ai-basics/what-is-ai', icon: '🌱' },
-  { title: 'ChatGPT指南', desc: '最流行的AI助手', link: '/docs/02-ai-tools/chatgpt-guide', icon: '💬' },
-  { title: '提示词技巧', desc: '让AI更听话', link: '/docs/03-ai-dev/prompt-basics', icon: '🎯' },
+  { title: 'AI新手入门', desc: '从零开始了解AI', link: '/docs/ai-basics/what-is-ai', icon: '🌱' },
+  { title: 'ChatGPT指南', desc: '最流行的AI助手', link: '/docs/ai-tools/chatgpt-guide', icon: '💬' },
+  { title: '提示词技巧', desc: '让AI更听话', link: '/docs/ai-dev/prompt-basics', icon: '🎯' },
   { title: 'AI工具导航', desc: '精选工具大全', link: '/tools', icon: '🧭' },
 ];
 
 // 热门内容
 const hotContent = [
-  { title: '2024年最值得用的10个AI工具', link: '/blog/2024-top-ai-tools', views: '12.5k' },
-  { title: '提示词工程完全指南', link: '/docs/03-ai-dev/prompt-basics', views: '8.3k' },
-  { title: 'AI绘画入门：Midjourney vs 即梦', link: '/docs/02-ai-tools/ai-image-tools', views: '6.7k' },
+  { title: 'Claude完全使用指南', link: '/docs/ai-tools/claude-guide', views: '10.2k' },
+  { title: '提示词工程完全指南', link: '/docs/ai-dev/prompt-basics', views: '8.3k' },
+  { title: 'AI绘画入门：Midjourney vs 即梦', link: '/docs/ai-tools/ai-image-tools', views: '6.7k' },
 ];
 
 function HomepageHeader() {
@@ -87,7 +87,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/01-ai-basics/what-is-ai">
+            to="/docs/ai-basics/what-is-ai">
             🚀 开始AI之旅
           </Link>
           <Link

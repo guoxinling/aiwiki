@@ -289,8 +289,8 @@ Transformer：一次性看所有词，并行快，记忆长
 
 - [深度学习教程](./dl-tutorials.md)
 - [开源项目推荐](./open-source-projects.md)
-- [AI Agent演进](../ai-news/agent-trends.md)
-- [端侧AI兴起](../ai-news/edge-ai.md)
+- [AI Agent演进](../05-ai-news/agent-trends.md)
+- [端侧AI兴起](../05-ai-news/edge-ai.md)
 
 ---
 

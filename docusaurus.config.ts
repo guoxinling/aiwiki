@@ -29,43 +29,11 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'docs',
-          editUrl: 'https://github.com/your-github-username/ai-knowledge-base/edit/main/',
-          async sidebarItemsGenerator({defaultSidebarItemsGenerator, ...args}) {
-            const sidebarItems = await defaultSidebarItemsGenerator(args);
-            const currentDocId = args.item.id || '';
-            
-            // 根据当前文档ID确定属于哪个分类
-            let targetLabel = '';
-            if (currentDocId.startsWith('ai-basics/')) {
-              targetLabel = '🧠 AI基础与原理';
-            } else if (currentDocId.startsWith('ai-tools/')) {
-              targetLabel = '🛠️ AI工具与应用';
-            } else if (currentDocId.startsWith('ai-dev/')) {
-              targetLabel = '💻 AI开发实践';
-            } else if (currentDocId.startsWith('ai-industry/')) {
-              targetLabel = '🏭 AI行业应用';
-            } else if (currentDocId.startsWith('ai-news/')) {
-              targetLabel = '📈 AI资讯与趋势';
-            } else if (currentDocId.startsWith('ai-resources/')) {
-              targetLabel = '📚 AI学习资源';
-            } else if (currentDocId.startsWith('openclaw/')) {
-              targetLabel = '🦞 OpenClaw';
-            }
-            
-            // 如果确定了目标分类，只保留该分类
-            if (targetLabel) {
-              const filtered = sidebarItems.filter((item: any) => {
-                return item.type === 'category' && item.label === targetLabel;
-              });
-              return filtered.length > 0 ? filtered : sidebarItems;
-            }
-            
-            return sidebarItems;
-          },
+          editUrl: 'https://github.com/guoxinling/aiwiki/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/your-github-username/ai-knowledge-base/edit/main/blog/',
+          editUrl: 'https://github.com/guoxinling/aiwiki/edit/main/blog/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -82,7 +50,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        // 七大知识板块平铺显示
         {
           to: '/docs/ai-basics/',
           label: '🧠 基础',
@@ -119,7 +86,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/your-github-username/ai-knowledge-base',
+          href: 'https://github.com/guoxinling/aiwiki',
           label: 'GitHub',
           position: 'right',
         },
@@ -171,7 +138,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username/ai-knowledge-base',
+              href: 'https://github.com/guoxinling/aiwiki',
             },
             {
               label: '更新日志',
@@ -186,7 +153,6 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    // 统一深色模式
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

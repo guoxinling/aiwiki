@@ -152,6 +152,6 @@ sidebar_position: 1
 
 ## 更多场景
 
-👉 [用AI做PPT](./ppt-assistant.md)
+👉 [用AI做PPT](./ai-ppt.md)
 
 👉 [用AI整理学习笔记](./learning-assistant.md)

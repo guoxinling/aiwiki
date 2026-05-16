@@ -247,7 +247,7 @@ sidebar_position: 14
 - [AI内容生成](./ai-content-gen.md)
 - [AI辅助写作](./ai-writing.md)
 - [AI音乐创作](./ai-music.md)
-- [多模态AI进展](../ai-news/multimodal-trends.md)
+- [多模态AI进展](../05-ai-news/multimodal-trends.md)
 
 ---
 

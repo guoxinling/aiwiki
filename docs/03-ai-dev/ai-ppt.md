@@ -228,4 +228,4 @@ sidebar_position: 2
 
 👉 [用AI整理学习笔记](./learning-assistant.md)
 
-👉 [AI办公工具推荐](../tools-guide/ai-office-tools.md)
+👉 [AI办公工具推荐](../02-ai-tools/ai-office-tools.md)

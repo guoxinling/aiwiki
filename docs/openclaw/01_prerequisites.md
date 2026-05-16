@@ -103,11 +103,11 @@ git config --global https.proxy http://127.0.0.1:7890
 ## 下一步
 
 完成前置条件准备后，继续阅读：
-👉 [02. 安装 OpenClaw 核心程序](./02_install_core)
+👉 [02. 安装 OpenClaw 核心程序](./install_core)
 
 ---
 
 **相关链接**:
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 - [官方文档](https://docs.openclaw.ai)
-- [下一章: 安装核心程序](./02_install_core)
+- [下一章: 安装核心程序](./install_core)

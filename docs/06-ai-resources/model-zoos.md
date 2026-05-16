@@ -102,7 +102,7 @@ result = classifier("I love AI!")
 
 - [开源项目推荐](./open-source-projects.md)
 - [大模型技术详解](./llm-technical.md)
-- [端侧AI兴起](../ai-news/edge-ai.md)
+- [端侧AI兴起](../05-ai-news/edge-ai.md)
 
 ---
 

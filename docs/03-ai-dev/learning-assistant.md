@@ -258,6 +258,4 @@ A - Archives（归档）
 
 ## 下一步
 
-👉 [AI办公工具推荐](../tools-guide/ai-office-tools.md)
-
-👉 [返回实战案例首页](../use-cases/)
+👉 [AI办公工具推荐](../02-ai-tools/ai-office-tools.md)

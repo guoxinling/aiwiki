@@ -13,16 +13,12 @@ sidebar_position: 1
 ### 入门必读
 - [什么是AI？](./what-is-ai.md) - 用简单的话解释人工智能
 - [AI常见术语词典](./ai-terms.md) - 搞懂那些专业词汇
-- [AI的能力边界](./ai-limits.md) - AI能做什么，不能做什么
 
-### 原理浅析
-- [大模型是如何工作的](./how-llm-works.md) - 不用数学公式理解LLM
-- [神经网络入门](./neural-network-basics.md) - 模拟人脑的计算机
-- [机器学习vs深度学习](./ml-vs-dl.md) - 概念辨析
-
-### 发展历史
-- [AI发展简史](./ai-history.md) - 从图灵测试到ChatGPT
-- [三次AI浪潮](./ai-waves.md) - 起起落落的AI发展
+### 扩展阅读（即将上线）
+- AI的能力边界
+- 大模型是如何工作的
+- 神经网络入门
+- AI发展简史
 
 ---
 

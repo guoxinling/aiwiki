@@ -34,7 +34,7 @@ sidebar_position: 2
 - [AI音频工具](./ai-audio.md) - 语音合成、音频处理
 
 ### AI助手部署
-- [🦞 OpenClaw完全指南](./openclaw-guide) - 本地部署AI助手团队（16章完整教程）
+- [🦞 OpenClaw完全指南](../openclaw) - 本地部署AI助手团队（16章完整教程）
 
 ---
 

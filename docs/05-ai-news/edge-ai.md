@@ -281,7 +281,7 @@ ollama run llama3.2
 
 - [大模型发展趋势](./llm-trends.md)
 - [AI Agent演进](./agent-trends.md)
-- [AI芯片与硬件](../06-ai-resources/)
+- [AI芯片与硬件](../ai-resources)
 
 ---
 

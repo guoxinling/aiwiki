@@ -79,7 +79,6 @@ sidebar_position: 15
 
 ## 📚 相关阅读
 
-- [AI应用新机会](../ai-news/ai-opportunities-vibe-coding.md)
 - [最新论文追踪](./latest-papers.md)
 - [技术博客推荐](./tech-blogs.md)
 
